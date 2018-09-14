@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'Clouder'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
